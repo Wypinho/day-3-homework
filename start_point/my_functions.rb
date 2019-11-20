@@ -9,3 +9,17 @@ def sum_array(numbers)
   end
   return total
 end
+
+def is_item_in_array(array, item)
+  for x in array
+    if x == item
+      return true
+    end
+  end
+  return false
+end
+
+def get_first_key(hash)
+  hash_keys = hash.keys
+  return hash_keys[0]
+end
